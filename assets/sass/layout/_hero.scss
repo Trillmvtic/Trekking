@@ -1,0 +1,55 @@
+.hero {
+    background-image   : url(../images/bg-hero.svg);
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    background-position: bottom !important;
+    min-height         : 60vw;
+
+    &__description-title {
+        font-family: $raleway;
+        font-size  : $xxxx-large;
+        font-weight: 700;
+        margin-top: 10rem;
+        padding-bottom: 1rem;
+
+    }
+    &__description-subtitle {
+        font-family: $raleway;
+        font-weight: 300;
+    }
+
+}
+.caracteristicas {
+
+    &__title {
+        font-family: $raleway;
+        font-size  : $xxx-large;
+        text-align : center;
+        font-weight: 700;
+    }
+
+    &__grafico {
+        margin : 1rem;
+        padding: 15px;
+        margin-top: 5rem;
+
+        //animacion grafico   
+        &-img {
+            animation: opacidad 5s ease-in;
+        }
+    }
+
+    &__description {
+        margin : 1rem;
+        padding: 15px;
+
+        &-title {
+            font-family: $raleway;
+            font-size  : $x-large;
+            font-weight: 700;
+            margin-top: 5rem;
+        }
+    }
+
+}
+

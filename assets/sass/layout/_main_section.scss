@@ -1,0 +1,78 @@
+.precios {
+    background-image   : url(../images/bg-price.svg);
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    background-position: top !important;
+    min-height         : 50vw;
+    padding-top        : 15rem;
+
+    &__title {
+        font-family: $raleway;
+        font-size  : $xxx-large;
+        text-align : center;
+        color      : $white;
+        font-weight: bold;
+    }
+
+    &__box {
+
+        background-color: $white;
+        margin          : 1rem;
+        padding         : 3rem;
+        display         : flex;
+        flex-direction  : column;
+
+        &-title {
+            padding-bottom: 2rem;
+            font-family   : $raleway;
+            font-size     : $x-large;
+
+
+
+        }
+
+        &-title h2 {
+            font-weight: 300;
+            font-size  : 26px;
+            margin     : 1px;
+
+
+        }
+
+
+        &-title p {
+            font-weight: $font-weight-bold;
+            font-size  : $xxx-large;
+            margin     : 0;
+
+        }
+
+        &-subtitle {
+            border-bottom : 1px solid gray;
+            border-top    : 1px solid gray;
+            padding-top   : 20px;
+            padding-bottom: 27px;
+
+            flex: 1 1 auto;
+
+            & ul {
+                padding-left: 0;
+            }
+
+            & li {
+                list-style   : disc;
+                margin-bottom: 1rem;
+            }
+
+
+            padding-left: 15px;
+
+        }
+
+        &-button {
+            padding-top: 20px;
+
+        }
+
+    }
+}
